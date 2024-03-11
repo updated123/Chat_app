@@ -39,7 +39,7 @@ app.get('/chat/:roomid', async (req, res) => {
     }).select('content user');
     console.log(chats);
     res.render('index', {
-        name: 'Sanket',
+        name: 'Utsav',
         id: req.params.roomid,
         chats: chats
     });
